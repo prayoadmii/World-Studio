@@ -1,6 +1,6 @@
-import webview
 import subprocess
 import os
-import uvicorn
 
 from prayoadmii_lib import console
+
+subprocess.run("cls" if os.name == "nt" else "clear", shell=True)
