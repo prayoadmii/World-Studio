@@ -1,0 +1,7 @@
+[metadata]
+version = "INDEV"
+name = "World Studio"
+author = "PrayoadMii"
+
+[internal]
+http_host = "127.0.0.1"
