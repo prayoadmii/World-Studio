@@ -12,10 +12,6 @@ const MIN_RIGHT_WIDTH = 150;
 const MAX_RIGHT_WIDTH = 500;
 
 
-// ─────────────────────────────
-// Start resizing
-// ─────────────────────────────
-
 leftHandle.addEventListener('mousedown', (event) => {
     event.preventDefault();
 
@@ -44,10 +40,6 @@ rightHandle.addEventListener('mousedown', (event) => {
     document.body.style.userSelect = 'none';
 });
 
-
-// ─────────────────────────────
-// Resize
-// ─────────────────────────────
 
 document.addEventListener('mousemove', (event) => {
     if (!resizing) {
@@ -89,10 +81,6 @@ document.addEventListener('mousemove', (event) => {
     }
 });
 
-
-// ─────────────────────────────
-// Stop resizing
-// ─────────────────────────────
 
 document.addEventListener('mouseup', () => {
 
