@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>World Studio</title>
+
+        <!-- App Scripts -->
+        <script src="/js/is-online.js"></script>
+
+        <script defer src="/js/demo/render.js"></script>
+        <script defer src="/js/editor-resize.js"></script>
+        <!-- App Scripts -->
+
+        <!-- External Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <!-- External Scripts -->
+
+        <!-- App Styles -->
+        <link rel="stylesheet" href="/css/game.css">
+        <!-- App Styles -->
+    </head>
+
+    <body>
+        <div class="editor">
+            <div class="editor-top"></div>
+
+            <div class="editor-left"></div>
+            <div class="resize-handle resize-left"></div>
+
+            <div class="viewport-container">
+                <canvas class="viewport" id="renderer"></canvas>
+            </div>
+
+            <div class="resize-handle resize-right"></div>
+            <div class="editor-right"></div>
+
+            <div class="editor-bottom"></div>
+        </div>
+    </body>
+</html>

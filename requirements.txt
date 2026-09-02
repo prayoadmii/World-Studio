@@ -1,22 +1,19 @@
-pywebview
+pywebview==6.2.1
 
-qtpy
+qtpy==2.4.3
 
-PyQt6
-PyQt6-WebEngine
+PyQt6==6.11.0
+PyQt6-WebEngine==6.11.0
 
-customtkinter
+customtkinter==6.0.0
 
-ursina
-ursina[extras]
+lupa==2.8
 
-lupa
+fastapi>=0.141.1
 
-fastapi
+uvicorn>=0.52.4
+uvicorn[standard]>=0.52.4
 
-uvicorn
-uvicorn[standard]
+requests>=2.34.2
 
-requests
-
-prayoadmii-lib
+prayoadmii-lib>=0.1.2
