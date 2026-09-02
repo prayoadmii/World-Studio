@@ -54,12 +54,11 @@ async def add_no_cache_headers(request: Request, call_next):
 fapi.mount(
     path="/",
     app=StaticFiles(
-        directory="content/web",
+        directory="content",
         html=True
     ),
-    name=str(project_config.get_config("metadata.name", "Google Chrome"))
+    name="Web"
 )
-
 
 def run_server():
     uvicorn.run(
