@@ -1,8 +1,8 @@
 {
 	"folders": [
 		{
-			"name": "web",
-			"path": "content/web"
+			"name": "content",
+			"path": "content"
 		},
 		{
 			"name": "World-Studio",
@@ -10,6 +10,6 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "web"
+		"liveServer.settings.multiRootWorkspaceName": "content"
 	}
 }

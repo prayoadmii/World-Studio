@@ -28,7 +28,6 @@ fapi = FastAPI(
     redoc_url=None
 )
 
-
 @fapi.middleware("http")
 async def user_agent_middleware(request: Request, call_next):
     user_agent = str(request.headers.get("user-agent", ""))
