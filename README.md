@@ -17,9 +17,20 @@
 
 ## **Notes**
 
-1. **World Studio Does Not Responsible For Any Content/World That May Appear In The Software As Long As The Content Did Not Come From Or Included In This Source If Players Appear To Use PlayIt.gg Tunnel For Server You Can Report That Tunnel By Email To [abuse@playit.gg](mailto:abuse@playit.gg)**
+1. **World Studio Does Not Responsible For Any Content/World That May Appear In The Software As Long As The Content Did Not Come From Or Included In This Source If Players Appear To Use [PlayIt.gg](http://playit.gg/) Tunnel Or Other UDP Tunneling Service For Server You Need To Report To The Tunnels Providers**
 
 2. **World Studio Allow Server To Use Custom Assets From Third Party Domains So Beware When Using Online Play**
+
+---
+
+## **Software Agreements**
+
+**World Studio Might Contain Something That's Not Made For Everyone So Before Using The Software Make Sure You Agree To**
+
+1. **Third Party Content Downloading/Uploading**
+2. **World File And Content In It**
+3. **In-Game Chats And Voice Chats (No Moderation Provided By Default... If You Want Chat Moderation On Server Please Fork This Repo And Add Your Moderation Script)**
+4. **Your Hardware (World Studio Allow Creator Of The Server Or World To Run Scripts In Your Computer And May Effect CPU Usage... Don't Worry... We Will Make This Safe As Much As We Can)**
 
 ---
 
