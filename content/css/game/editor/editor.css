@@ -1,0 +1,29 @@
+.editor {
+    --left-width: 250px;
+    --right-width: 300px;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: var(--left-width) 6px minmax(0, 1fr) 6px var(--right-width);
+    grid-template-rows: 60px minmax(0, 1fr) 180px;
+}
+
+.editor-top {
+    grid-column: 1 / 6;
+    grid-row: 1;
+}
+
+.editor-left {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.editor-right {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.editor-bottom {
+    grid-column: 1 / 6;
+    grid-row: 3;
+}

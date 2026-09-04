@@ -1,0 +1,23 @@
+.resize-left {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.resize-right {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.resize-handle {
+    background: transparent;
+    z-index: 100;
+    transition: background 0.1s;
+}
+
+.resize-handle:hover {
+    background: #00bbff;
+}
+
+.resize-left, .resize-right {
+    cursor: ew-resize;
+}
